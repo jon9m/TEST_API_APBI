@@ -1,0 +1,35 @@
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="" extends="struts-default">
+
+		<action name="hello" class="HelloWorldAction" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="cpAddReportv2" class="CpAddReportv2" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="cpLoadFormDataAppv2" class="CpLoadFormDataAppv2" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="cpBookingCalendarFeedApp" class="CpBookingCalendarFeedApp" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="cpLiveApp" class="CpLiveApp" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="cpInspectionDetailsApp" class="CpInspectionDetailsApp" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+
+
+	</package>
+</struts>
