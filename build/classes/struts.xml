@@ -29,6 +29,10 @@
 		<action name="cpInspectionDetailsApp" class="CpInspectionDetailsApp" method="execute">
 			<result name="success">/index.jsp</result>
 		</action>
+		
+		<action name="cpUploadImageApp" class="CpUploadImageApp" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
 
 
 	</package>
