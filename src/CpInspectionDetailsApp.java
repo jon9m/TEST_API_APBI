@@ -30,6 +30,8 @@ public class CpInspectionDetailsApp implements ServletRequestAware, ServletRespo
 			servletResponse.setHeader("Access-Control-Allow-Origin", "*");
 
 			PrintWriter out = servletResponse.getWriter();
+			
+			Thread.sleep(1000);
 
 			try {
 				if (ins != null) {
